@@ -1,0 +1,27 @@
+.user-auth-form {
+  display: grid;
+  place-items: center;
+}
+
+.user-auth-form > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+
+.user-auth-form > form > h1 {
+  font-size: calc(var(--font-size) * 2);
+}
+
+.user-auth-form > form > input {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  font-size: calc(var(--font-size) * 1);
+  width: max(250px, 30vw);
+}
+
+.user-auth-form > form > button {
+  border: 2px solid white;
+  font-size: calc(var(--font-size) * 1.5);
+  padding: 0.5rem 0;
+}

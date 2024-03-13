@@ -1,0 +1,6 @@
+.dashboard {
+  font-size: calc(var(--font-size) * 3);
+  color: white;
+  display: grid;
+  place-items: center;
+}

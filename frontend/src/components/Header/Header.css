@@ -1,0 +1,10 @@
+.header {
+  background-color: #111;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header > * {
+  font-size: var(--font-size);
+}

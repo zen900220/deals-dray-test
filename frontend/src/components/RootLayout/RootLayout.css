@@ -1,0 +1,9 @@
+.root-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.root-layout > *:nth-child(2) {
+  flex-grow: 1;
+}
